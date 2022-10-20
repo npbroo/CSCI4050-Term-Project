@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind forms;
+
+
+@font-face {
+    font-family: "oswald";
+    src: local("Oswald"), url(../public/fonts/oswald.ttf) format("truetype");
+}
+
+
+h1 {
+    font-family: oswald;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: oswald;
+}
+
+button {
+    padding-left: 0.75rem; /* 12px */
+    padding-right: 0.75rem; /* 12px */
+    padding-top: 0.25rem; /* 4px */
+    padding-bottom: 0.25rem; /* 4px */
+    border-radius: 0.75rem;
+    &.bold {
+        font-family: oswald;
+        background-color: rgb(239 68 68);
+        color: white;
+        &.bold-disabled {
+            background-color: rgb(254 202 202);
+        }
+    }
+    &.bold:hover{
+        background-color: rgb(127 29 29);
+        &.bold-disabled {
+            background-color: rgb(254 202 202);
+        }
+    }
+    &.showtimes {
+        outline-style: solid;
+        
+        outline-width: 4px;
+        outline-color: #e5e7eb;
+        color: white;
+        &.showtime-selected {
+            background-color: #4b5563;
+        }
+        &.showtime-unselected {
+            background-color: #9ca3af;
+        }
+    }
+    &.showtimes:hover {
+        outline-color: #6b7280;
+    }
+}
