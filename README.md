@@ -9,6 +9,7 @@ Quick Start:
 
 2.) Set up the backend Django api
 
+    # In a new terminal, cd into the backend directory
     $ cd backend
 
     # Activate a virtual environment
