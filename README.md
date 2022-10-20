@@ -1,7 +1,7 @@
 CSCI4050 Term Project
 
 Contains a backend Django app with restful api endpoints.
-Contains a frontend Next.js app for the which fetches data from the api.
+Contains a frontend Next.js app which fetches data from the api.
 
 Quick Start:
 
