@@ -5,7 +5,7 @@ Contains a frontend Next.js app for the which fetches data from the api.
 
 Quick Start:
 
-1.) clone repository
+1.) Clone repository
 
 2.) Set up the backend Django api
     $ cd backend
@@ -14,9 +14,9 @@ Quick Start:
     $ pip install virtualenv
     $ py -m venv venv
 
-    If Windows:
+    # If Windows:
         $ venv\Scripts\activate.bat
-    If Linux:
+    # If Linux:
         $ source venv/Scripts/activate
 
     # Download necessary packages
@@ -47,7 +47,7 @@ Quick Start:
     # In your text editor put the following line in your .env file:
     DJANGO_API=http://localhost:8000/api
 
-    # Start your frontend app
+5.) Run the frontend server
     $ npm run dev
 
     # Go to http://localhost:3000/backend-test
