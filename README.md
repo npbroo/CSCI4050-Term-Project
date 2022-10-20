@@ -8,6 +8,7 @@ Quick Start:
 1.) Clone repository
 
 2.) Set up the backend Django api
+
     $ cd backend
 
     # Activate a virtual environment
@@ -27,6 +28,7 @@ Quick Start:
     $ py manage.py migrate --run-syncdb 
 
 3.) Run the backend server
+
     $ py manage.py runserver
 
     # Go to http://localhost:8000/admin
@@ -35,6 +37,7 @@ Quick Start:
         - password: 'password'
 
 4.) Set up the frontend Next.js app
+
     # Install node package manager on your system if it is not already installed
 
     # In a new terminal, cd into the frontend directory
